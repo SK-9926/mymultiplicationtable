@@ -1,0 +1,68 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Syne+Tactile&display=swap');
+
+*{
+    font-family: cursive;
+    font-weight: 700;
+    padding: 1px;
+    margin: 1px;
+    /* border: 2px solid yellow; */
+    /* background-color: rgb(235, 238, 87)  ; */
+}
+body{
+    overflow: hidden;
+    background-image: url("img/01.jpg");
+}
+.out{
+    display:flex;
+   
+    height:100vh;
+    width:100vw;   
+
+
+}
+.in1{
+    margin-left: 20px;
+    margin-left: 20px;
+    width: 41%;
+    height: 93%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+
+    
+.in2{
+    overflow: hidden;
+    position: relative;
+    top:50px;
+    font-family: cursive;
+    font-weight: 700;
+    padding-top: 10px;
+    color: rgb(204, 236, 60);
+    font-size: 25px;
+    text-align: center;
+    width: 70%;
+    height: 95%;
+}
+
+.s_npt{
+    text-align: center;
+    font-weight: bold;
+    /* border: 2px solid red; */
+    border-radius:10px;
+    width:12rem;
+    height: 2.5rem;
+}
+#innercont {
+    overflow: auto;
+        /* border: 2px solid white; */
+    }
+    span{ 
+        margin-bottom: 40px;
+        text-align: center;
+        font-size: 28px;
+        color: rgb(204, 236, 60);
+    }
